@@ -25,7 +25,9 @@ header .logo {
     font-weight: bold;
     color: #12bdff; 
     letter-spacing: 2px;
+    text-decoration: none;
 }
+
 
 
 ul{
