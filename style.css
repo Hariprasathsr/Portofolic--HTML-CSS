@@ -30,19 +30,19 @@ header .logo {
 
 
 
-ul{
+header ul{
     display: flex;
     list-style: none;
 
 }
-ul li{
+header ul li{
     margin-right: 20px;
 }
-ul li a{
+header ul li a{
     color: #fff;
     text-decoration: none;
 }
-ul li a:hover{
+header ul li a:hover{
     color: #12bdff;
 
 }
@@ -58,5 +58,68 @@ header button:hover{
     cursor: pointer;
     background-color: #12bdff;
     color: white;
+
+}
+/* Section Home-page */
+section.hero-section {
+    background-color: #1b1f24;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    padding: 20px 120px 0 240px;
+
+}
+.hero-section__title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #12bdff;
+
+}
+.hero-section__desc{
+    color: aliceblue;
+}
+.social-icons{
+    margin:20px 0;
+}
+ul.social-icons{
+    list-style: none;
+    display: flex;
+}
+.social-icons li{
+    margin-right: 20px;
+    
+}
+.social-icons li > a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.social-icons li a > i.fa-linkedin:hover{
+    color: #0072b1;
+}
+.social-icons li a > i.fa-instagram:hover{
+    color: #feda75;
+}
+.social-icons li a > i.fa-github:hover{
+    color: #4078c0;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+    cursor:pointer;
+}
+
+.btn.btn-primary{
+    background-color: #12bdff;
+    font-weight: 600;
+    color: white;
+}
+.btn.btn-primary:hover{
+    color: #4078c0
+}
+.btn.btn-dark{
+    background-color:;
 
 }
