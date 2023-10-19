@@ -144,3 +144,60 @@ ul.social-icons{
     background-color: var(--primary);
     color: #fff;
 }
+
+
+/* About me section */
+
+.about-section{
+    background-color: #3f464f;
+    color: #fff;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-section img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 3px solid var(--primary);
+    box-shadow: 3px 5px 40px var(--primary);
+
+    
+} 
+.about-section--desc {
+    margin-left: 100px;
+
+}
+.about-section--desc h4{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.about-section--desc h4 span {
+    color: var(--primary);
+}
+.about-section--desc ul{
+    list-style: none;
+    max-width: 450px;
+    margin: 10px;
+    
+}
+.about-section li{
+    margin-bottom: 8px;
+    color: gray;
+}
+.about-section--desc li a{
+    text-decoration: none;
+    color: grey;
+    
+
+}
+.about-section--desc li a:hover{
+    color: #0072b1;
+}
+
+.about-section--desc li strong{
+    color: white;
+}
