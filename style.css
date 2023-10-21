@@ -3,6 +3,8 @@
 :root{
     --dark--primary:#1b1f24;
     --primary:#12bdff;
+    --grey:#3f464f;
+    --nunito: 'Nunito Sans', sans-serif;
 }
 *{
     margin: 0;
@@ -10,6 +12,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth ;
+}
 header{
     background-color: #1b1f24;
     padding: 20px;
@@ -17,6 +22,17 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+
+    width: 100%;
+    
+    
+
 }
 body{
     font-family: Merriweather ;
@@ -68,7 +84,7 @@ section.hero-section {
 
     display: flex;
     align-items: center;
-    padding: 20px 120px 0 240px;
+    padding: 80px 120px 0 240px;
 
 }
 .hero-section__title{
@@ -77,6 +93,7 @@ section.hero-section {
     
 
 }
+
 .hero-section__title span{
     color: #12bdff;
 }
@@ -201,3 +218,107 @@ ul.social-icons{
 .about-section--desc li strong{
     color: white;
 }
+
+/* Work section */
+
+.work-section{
+    background-color: var(--dark--primary);
+    color: white;
+    padding:60px;
+    text-align: center;
+
+}
+.work-section-box{
+    background-color: var(--grey);
+    padding: 20px;
+    max-width: 200px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px ;
+
+}
+.work-section-box:hover {
+    background-color: black;
+    
+}
+.work-section-box p{
+    color: grey;
+    font-size: 14px;
+    
+}
+.work-section-box a{
+    text-decoration: none;
+    color: #feda75;
+    
+}
+.work-section-box--desc{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.work-section-box--desc p{
+    margin-top: 5px;
+}
+.work-section-box-icon:hover{
+    background-color: #0072b1;
+}
+.work-section-box-icon{
+    background-color: var(--primary);
+    border-radius: 10px;
+
+}
+.work-section--title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px ;
+}
+.work-section--title span{
+    color: var(--primary);
+}
+
+.work-section-items{
+    display: flex;
+    justify-content: center;      
+}
+/* Contact-me css */
+.contact-section{
+    background-color:#121314;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.contact-section h4 span{
+    color: var(--primary);
+}
+.contact-section form input,textarea{
+padding: 5px 10px;
+outline: none;
+width: 350px;
+border: none;
+background-color: #c4c4c4;
+border-radius: 2px;
+margin-bottom: 10px;
+resize: none;
+font-family: var(--nunito);
+
+}
+
+footer{
+    background-color: #121314;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: #12bdff;
+}
+
