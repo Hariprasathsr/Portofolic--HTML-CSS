@@ -265,7 +265,7 @@ ul.social-icons{
 }
 .work-section-box-icon{
     background-color: var(--primary);
-    border-radius: 10px;
+    border-radius: 50%;
 
 }
 .work-section--title{
